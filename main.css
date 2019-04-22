@@ -1,0 +1,5 @@
+#map {
+    width: 640px;  /* The width is the width of the web page */
+    height: 480px;  /* The height is 400 pixels */
+    background-color: gray;
+}

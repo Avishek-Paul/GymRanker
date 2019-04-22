@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8"/>
+  <title>GymRanker: Find the best gym for you!</title>
+  <script async defer src="script.js"></script>
+  <!--Load the API from the specified URL
+  * The async attribute allows the browser to render the page while the API loads
+  * The key parameter will contain your own API key (which is not needed for this tutorial)
+  * The callback parameter executes the initMap() function
+  -->
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAQJSoNPTlue9uPLmY_K9OBEETEaOa-NA0&libraries=places"></script>
+  <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+  <h3>GymRanker</h3>
+  <b>Zip Code: </b><input id="zipCode" type="text"> 
+  <b>Radius (miles): </b><input id="radius" type="number" min="1" max="30"> 
+  <input id="searchButton" type="submit" value="Search">
+  <div id="map"></div>
+</body>
+
+</html>
