@@ -3,3 +3,7 @@
     height: 480px;  /* The height is 400 pixels */
     background-color: gray;
 }
+
+#rankButton {
+    width: 640px;
+}
